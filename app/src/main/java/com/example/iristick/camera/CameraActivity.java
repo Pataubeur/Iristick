@@ -1,15 +1,16 @@
-package com.iristick.smartglass.examples.camera;
+package com.example.iristick.camera;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.StringRes;
 import android.widget.Toast;
 
+import androidx.annotation.StringRes;
+
+import com.example.iristick.R;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.core.VoiceEvent;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 /**
@@ -36,7 +37,8 @@ public class CameraActivity extends BaseActivity {
 
         static final VoiceCommand[] VALUES = VoiceCommand.values();
 
-        @StringRes final int resId;
+        @StringRes
+        final int resId;
 
         VoiceCommand(final int resId) {
             this.resId = resId;

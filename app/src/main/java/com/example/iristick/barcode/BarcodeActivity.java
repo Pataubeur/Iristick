@@ -1,15 +1,16 @@
-package com.iristick.smartglass.examples.barcode;
+package com.example.iristick.barcode;
 
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+
 import com.iristick.smartglass.core.Intents;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
+import com.example.iristick.R;
 
 /**
  * This example scans for a barcode using intents provided by the Iristick Services.

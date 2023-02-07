@@ -12,6 +12,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+
 import androidx.annotation.Nullable;
 
 import com.iristick.smartglass.core.Headset;

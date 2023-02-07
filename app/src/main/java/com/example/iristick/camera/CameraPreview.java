@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.camera;
+package com.example.iristick.camera;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

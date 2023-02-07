@@ -1,10 +1,10 @@
-package com.iristick.smartglass.examples.displaypresentation;
+package com.example.iristick.displaypresentation;
 
 import android.os.Bundle;
 import android.view.Display;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.HudActivity;
 import com.iristick.smartglass.support.app.HudPresentation;
 

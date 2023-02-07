@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.sensorscube;
+package com.example.iristick.sensorscube;
 
 import android.hardware.SensorManager;
 import android.opengl.GLES20;
@@ -7,12 +7,12 @@ import android.opengl.Matrix;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.core.Sensor;
 import com.iristick.smartglass.core.SensorEvent;
 import com.iristick.smartglass.core.SensorEventListener;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 import java.nio.ByteBuffer;

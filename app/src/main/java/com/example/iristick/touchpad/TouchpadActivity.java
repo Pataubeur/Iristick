@@ -1,12 +1,14 @@
-package com.iristick.smartglass.examples.touchpad;
+package com.example.iristick.touchpad;
 
 import android.os.Bundle;
 import android.view.MotionEvent;
 
+import com.example.iristick.R;
+import com.example.iristick.touchpad.DrawingArea;
+import com.example.iristick.touchpad.GestureView;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.core.TouchEvent;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 /**

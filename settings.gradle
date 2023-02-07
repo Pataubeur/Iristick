@@ -11,6 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        ivy { url 'https://developer.iristick.com/repo'}
     }
 }
 rootProject.name = "Iristick Test"

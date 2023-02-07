@@ -1,14 +1,15 @@
-package com.iristick.smartglass.examples;
+package com.example.iristick;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
-import com.iristick.smartglass.examples.barcode.BarcodeActivity;
-import com.iristick.smartglass.examples.camera.CameraActivity;
-import com.iristick.smartglass.examples.displaypresentation.DisplayPresentationActivity;
-import com.iristick.smartglass.examples.displaysurface.DisplaySurfaceActivity;
-import com.iristick.smartglass.examples.sensorscube.SensorsCubeActivity;
-import com.iristick.smartglass.examples.sensorsreadout.SensorsReadoutActivity;
-import com.iristick.smartglass.examples.touchpad.TouchpadActivity;
+import com.example.iristick.barcode.BarcodeActivity;
+import com.example.iristick.camera.CameraActivity;
+import com.example.iristick.displaypresentation.DisplayPresentationActivity;
+import com.example.iristick.displaysurface.DisplaySurfaceActivity;
+import com.example.iristick.sensorscube.SensorsCubeActivity;
+import com.example.iristick.sensorsreadout.SensorsReadoutActivity;
+import com.example.iristick.touchpad.TouchpadActivity;
+import com.iristick.smartglass.examples.BaseActivity;
 
 public enum Example {
     CAMERA(CameraActivity.class, R.string.camera_title, R.string.camera_description),
@@ -20,8 +21,9 @@ public enum Example {
     TOUCHPAD(TouchpadActivity.class, R.string.touchpad_title, R.string.touchpad_description),
     ;
 
-    public final Class<? extends BaseActivity> activity;
-    @StringRes public final int title;
+    public final Class<? extends com.iristick.smartglass.examples.BaseActivity> activity;
+    @StringRes
+    public final int title;
     @StringRes public final int description;
 
     Example(Class<? extends BaseActivity> activity, int title, int description) {

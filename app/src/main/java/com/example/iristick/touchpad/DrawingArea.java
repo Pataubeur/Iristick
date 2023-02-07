@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.touchpad;
+package com.example.iristick.touchpad;
 
 import android.content.Context;
 import android.graphics.Canvas;

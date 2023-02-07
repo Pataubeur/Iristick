@@ -1,17 +1,17 @@
-package com.iristick.smartglass.examples.touchpad;
+package com.example.iristick.touchpad;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.ImageView;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.core.TouchEvent;
-import com.iristick.smartglass.examples.R;
+import androidx.appcompat.widget.AppCompatImageView;
 
 /**
  * Simple widget to flash an icon corresponding to a gesture.
  */
-public class GestureView extends ImageView {
+public class GestureView extends AppCompatImageView {
 
     public GestureView(Context context) {
         super(context);

@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.sensorsreadout;
+package com.example.iristick.sensorsreadout;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,12 +8,12 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.core.Sensor;
 import com.iristick.smartglass.core.SensorEvent;
 import com.iristick.smartglass.core.SensorEventListener;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 import java.util.ArrayList;

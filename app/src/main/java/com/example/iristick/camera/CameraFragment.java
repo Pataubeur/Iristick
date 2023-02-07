@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.camera;
+package com.example.iristick.camera;
 
 import android.Manifest;
 import android.app.Fragment;
@@ -17,12 +17,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.core.camera.CameraCharacteristics;
 import com.iristick.smartglass.core.camera.CameraDevice;
 import com.iristick.smartglass.core.camera.CaptureRequest;
 import com.iristick.smartglass.core.camera.CaptureSession;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 import java.util.ArrayList;

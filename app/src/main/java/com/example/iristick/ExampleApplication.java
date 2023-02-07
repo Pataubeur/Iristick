@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples;
+package com.example.iristick;
 
 import android.app.Application;
 

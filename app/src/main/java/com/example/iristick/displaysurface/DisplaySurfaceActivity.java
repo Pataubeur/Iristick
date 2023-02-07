@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.displaysurface;
+package com.example.iristick.displaysurface;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -9,10 +9,10 @@ import android.util.Log;
 import android.view.Display;
 import android.view.Surface;
 
+import com.example.iristick.R;
 import com.iristick.smartglass.core.DisplayListener;
 import com.iristick.smartglass.core.Headset;
 import com.iristick.smartglass.examples.BaseActivity;
-import com.iristick.smartglass.examples.R;
 import com.iristick.smartglass.support.app.IristickApp;
 
 import java.util.ArrayList;

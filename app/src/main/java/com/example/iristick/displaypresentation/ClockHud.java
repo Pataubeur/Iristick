@@ -1,4 +1,4 @@
-package com.iristick.smartglass.examples.displaypresentation;
+package com.example.iristick.displaypresentation;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.view.Display;
 import android.widget.TextView;
 
-import com.iristick.smartglass.examples.R;
+import com.example.iristick.R;
 import com.iristick.smartglass.support.app.HudPresentation;
 
 import java.text.DateFormat;
