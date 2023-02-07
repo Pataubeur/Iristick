@@ -14,5 +14,5 @@ dependencyResolutionManagement {
         ivy { url 'https://developer.iristick.com/repo'}
     }
 }
-rootProject.name = "Iristick Test"
+rootProject.name = "Iristick"
 include ':app'

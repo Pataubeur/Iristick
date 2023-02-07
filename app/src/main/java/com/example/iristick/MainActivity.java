@@ -1,6 +1,7 @@
 package com.example.iristick;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -36,6 +37,11 @@ public class MainActivity extends Activity {
                 launchExample(Example.values()[position]);
             }
         });
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(IristickApp.wrapContext(newBase));
     }
 
     @Override
